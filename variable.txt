@@ -1,0 +1,62 @@
+  constant means data / information
+
+  1) Primary constant/data
+        three type of primary constant 
+        1) integer -> ex. 1,2,3,4 , -1,-2,-3
+        2) real ->
+            float -> 25.350000 , -544.876786
+            double -> 10.123456789011,-11.123456789011
+        3) char ->
+            char->  
+            'm','1'
+
+            ex. '-1',' ', 
+
+
+2)Secondary Constant
+
+ 1) String
+ 2) array
+ 3) structure
+ 4) Union
+ 5) Enum
+ 6) FILE
+
+
+what is Variable ?
+
+variable hold value.
+
+int abc = 5; 
+
+float xyz = 5.5;
+
+double x = 25.2222;
+
+char alp = 'A';
+
+rules of creating variable 
+
+1) not start with number -> 11hjdhjgj  wrong
+2) start with alph or underscore -> _abc, abc_124  valid 
+3) do not add space in variable ->  abc 1223  wrong
+
+
+
+how to initializer of variable?
+
+datatype + space + variableName + semicolon
+ex.  int abc;
+
+how to assign value at initializer time.
+
+datatype + space + variableName + assignmentOperartor + value + semicolon
+
+ex. int abc = 10;
+
+formate specifier
+
+int %d 
+float %f 
+char %c 
+double %lf 

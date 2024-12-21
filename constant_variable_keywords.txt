@@ -1,0 +1,76 @@
+constant - variable - keywords
+
+-> 
+
+1) primary constant means data / information 
+
+integer -> ex. 1,2,3,4 ......, -1,-2,-3,-4 , 
+
+real ->
+
+float -> 55.250000, -86.65666
+
+double -> 25.650000000000, 78875.161665456
+
+char ->
+ex. 'a','1','-'
+
+quetion ->
+
+'-1' , ' ', 
+
+
+2) secondory constant 
+
+1) string 
+2) array
+3) structure
+4) enum
+5) union
+6) FILE
+
+
+
+varibale means 
+reules for create variable 
+1) starti with aplhabatic or underscore 
+
+1) _abc  -> right
+2) abc123 -> right 
+3) abc_123 -> right 
+4) a1b1 -> right 
+
+
+
+912djhf -> wrong 
+bb fkk 54564 -> wrong 
+
+why we create variable ?
+
+we create varible for holding values.
+
+how to create variable?
+
+datatype + space + nameofvariable =(assign opertaors) + value + semicolumn
+
+initilizer
+int abc;
+
+value assign to variable 
+
+int abc = 5;
+
+float xyz = 25.25;
+
+char alp = 'm';
+
+
+format specifier 
+
+int -> %d
+float -> %f
+char -> %c 
+double -> %lf
+
+
+
