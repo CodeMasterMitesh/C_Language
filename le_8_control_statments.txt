@@ -1,0 +1,9 @@
+control statments ->
+
+     if else condition 
+     switch case 
+
+     loops ->
+        do while 
+        while 
+        for
