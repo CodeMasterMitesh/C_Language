@@ -47,3 +47,11 @@ int main() {
 
     return 0;
 }
+
+// student 
+// roll no 
+// name 
+// standard 
+// subject wise marks 
+// total marks
+// percentage
