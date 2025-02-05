@@ -5,9 +5,9 @@ enum Months{
     Jan=1,Feb,March,April,May,Jun,July,Aug,Sep,Oct,Nov,Dec
 };
 
-int daysInMonth(int m1){
+int daysInMonth(enum Months month){
 
-        switch (m1)
+        switch (month)
         {
         case Jan:return 31;break;
         case Feb:return 28;break;
@@ -21,9 +21,7 @@ int daysInMonth(int m1){
         case Oct:return 31;break;
         case Nov:return 30;break;
         case Dec:return 31;break;
-        
-        default:
-        printf("Invalid Input");
+        default:return -1;
             break;
         }
 }
@@ -36,8 +34,13 @@ int main()
     printf("Enter number in 1 to 12 :");
     scanf("%d",&input);
     
-    int r = daysInMonth(input);
-    printf("Days in Month of %d is %d\n",input,r);
+    if(input < 1 || input > 12){
+        printf("Invalid Input");
+    }else{
+        int r = daysInMonth((enum Months)input);
+        printf("Days in Month of %d is %d\n",input,r);
 
+    }
+    
     return 0;
 }
