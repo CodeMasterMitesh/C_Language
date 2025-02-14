@@ -4,7 +4,7 @@
 int main() {
     system("cls");
     FILE *fp;
-
+ 
     int x,y,z;
 
     printf("Enter Value for x and y :");
