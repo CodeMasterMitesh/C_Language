@@ -10,7 +10,7 @@ int main() {
     // scanf("%s",text);
     gets(text);
 
-    fp=fopen("file.txt","a");
+    fp=fopen("poojaDetails.txt","w");
 
     for (int i = 0; i < strlen(text); i++)
     {
